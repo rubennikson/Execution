@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-09T15:50:35 IST" name="Test Suite" finished-at="2022-06-09T15:52:09 IST" duration-ms="94154">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.accolite.Practise.AppTest@5ddeb7cb]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.accolite.Practise.Runner@303cf2ba]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-06-09T15:50:35 IST" name="Test" finished-at="2022-06-09T15:52:09 IST" duration-ms="94154">
+      <class name="com.accolite.Practise.AppTest">
+        <test-method is-config="true" signature="overAll()[pri:0, instance:com.accolite.Practise.AppTest@5ddeb7cb]" started-at="2022-06-09T15:50:35 IST" name="overAll" finished-at="2022-06-09T15:50:35 IST" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- overAll -->
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.accolite.Practise.AppTest@5ddeb7cb]" started-at="2022-06-09T15:50:35 IST" name="setUpClass" finished-at="2022-06-09T15:50:36 IST" duration-ms="660" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5495333e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.accolite.Practise.AppTest@5ddeb7cb]" started-at="2022-06-09T15:50:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-09T15:50:42 IST" duration-ms="6499" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login to amazon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login to Amazon website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.accolite.Practise.AppTest@5ddeb7cb]" started-at="2022-06-09T15:50:43 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-09T15:51:19 IST" duration-ms="36506" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login to amazon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login to Amazon website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.accolite.Practise.AppTest@5ddeb7cb]" started-at="2022-06-09T15:51:19 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-09T15:51:31 IST" duration-ms="12284" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login to amazon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Launch Flipkart app"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.accolite.Practise.AppTest@5ddeb7cb]" started-at="2022-06-09T15:51:31 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-09T15:51:36 IST" duration-ms="4279" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login to amazon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Launch Flipkart app"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.accolite.Practise.AppTest@5ddeb7cb]" started-at="2022-06-09T15:51:36 IST" name="tearDownClass" finished-at="2022-06-09T15:51:39 IST" duration-ms="3570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.accolite.Practise.AppTest -->
+      <class name="com.accolite.Practise.Runner">
+        <test-method is-config="true" signature="overAll()[pri:0, instance:com.accolite.Practise.Runner@303cf2ba]" started-at="2022-06-09T15:50:35 IST" name="overAll" finished-at="2022-06-09T15:50:35 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- overAll -->
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.accolite.Practise.Runner@303cf2ba]" started-at="2022-06-09T15:50:35 IST" name="setUpClass" finished-at="2022-06-09T15:50:36 IST" duration-ms="659" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5495333e]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.accolite.Practise.Runner@303cf2ba]" started-at="2022-06-09T15:50:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-09T15:50:43 IST" duration-ms="6728" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login to amazon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login to Amazon website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.accolite.Practise.Runner@303cf2ba]" started-at="2022-06-09T15:50:43 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-09T15:51:01 IST" duration-ms="17861" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login to amazon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login to Amazon website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.accolite.Practise.Runner@303cf2ba]" started-at="2022-06-09T15:51:01 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-09T15:51:45 IST" duration-ms="44104" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login to amazon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Launch Flipkart app"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.accolite.Practise.Runner@303cf2ba]" started-at="2022-06-09T15:51:45 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-06-09T15:52:08 IST" duration-ms="23384" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Login to amazon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Launch Flipkart app"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.accolite.Practise.Runner@303cf2ba]" started-at="2022-06-09T15:52:08 IST" name="tearDownClass" finished-at="2022-06-09T15:52:09 IST" duration-ms="1372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.accolite.Practise.Runner -->
+    </test> <!-- Test -->
+  </suite> <!-- Test Suite -->
+</testng-results>
